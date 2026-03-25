@@ -32,13 +32,13 @@ button:hover {
 h1 {
     font-style: italic;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .comun{
-    gap: -105px; /*este para separacion entre cards*/
-    display: flex;
-    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .comun .card{
@@ -53,18 +53,18 @@ h1 {
 .comun .card img{
     max-width: 500px;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .raros{
-    gap: -105px; /*este para separacion entre cards*/
-    display: flex;
-    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .raros .card{
     width: 100%;
-    max-width: 200px;
+    max-width: 500px;
     margin: 20px auto;
     background-color: rgb(16, 13, 13);
     box-shadow: white 1px 0px 10px;
@@ -72,9 +72,9 @@ h1 {
 }
 
 .raros .card img{
-    max-width: 200px;
+    max-width: 500px;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .marquee{
