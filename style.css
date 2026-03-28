@@ -1,7 +1,7 @@
 
 body {
-    background-color: #121212; /* Negro claro moderno */
-    color: #f5f5f5; /* Texto casi blanco para buen contraste */
+    background-color: #2e4a4f; /* Negro claro moderno */
+    color: #ededed; /* Texto casi blanco para buen contraste */
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@ body {
 button {
     background-color: #1e1e1e;
     color: #ffffff;
-    border: 1px solid #333;
+    border: 1px solid #383971;
     padding: 10px 15px;
     border-radius: 6px;
     cursor: pointer;
